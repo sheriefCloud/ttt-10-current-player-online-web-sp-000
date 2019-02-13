@@ -9,8 +9,9 @@ return counter
 end
 
 
-def current_player(counter)
-  if counter%2 == 0
+def current_player(board)
+  player_possition = turn_count(board)
+  if player_possition % 2 == 0
     player = "X"
   else
     player = "O"
