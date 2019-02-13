@@ -10,9 +10,9 @@ end
 
 
 def current_player(counter)
-  if counter%2 == 0 
+  if counter%2 == 0
     player = "X"
-  else 
+  else
     player = "O"
   end
 
